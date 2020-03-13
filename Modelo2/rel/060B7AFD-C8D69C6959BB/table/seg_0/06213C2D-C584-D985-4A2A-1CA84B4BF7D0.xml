@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06213C2D-C584-D985-4A2A-1CA84B4BF7D0" name="evaluacion">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>02517BFD-5F10-13E7-2764-D8AB7AE23A37</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idevaluacion" id="F6AD4BA9-7C10-1BF6-1F0B-38F77E371388">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>3FB7F75A-F888-443E-894C-3521F603FA94</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1934EAF2-89BE-02EE-0BEF-2BDD9AB6C612</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C7D6DC3A-5124-7668-2BF3-B5582795C84A">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>1471561B-3318-D639-A8B3-79DCF070AB81</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E5320284-15E7-56FE-92D6-3B55FEB8EF4C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="E0D073E7-C895-9347-53BD-88FB2CE2DB8D">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>BB47670A-BFBA-363A-AACA-E3B0C81C1E7F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>182BA2BE-9145-8009-9F02-635734680760</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="programa" id="8675980A-11DB-A8E3-EC74-07097C8DDD34">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>77A846D0-B006-26C4-61DB-975288BF5934</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1934EAF2-89BE-02EE-0BEF-2BDD9AB6C612</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidad" id="A0A6DEBE-1706-0A13-5BC3-F32D09953BCD">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>C0C26D4F-7419-F1D7-1BCF-4B32B2C8CB9A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1934EAF2-89BE-02EE-0BEF-2BDD9AB6C612</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autor" id="08B90FC3-18D8-7294-29E5-3629DAC11594">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>45B8754D-7378-9144-14E6-89FF81B69C02</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E5320284-15E7-56FE-92D6-3B55FEB8EF4C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechacreacion" id="B46BCB81-8ED5-F51F-8711-E5DFF3131E46">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>00E06A0D-4EE5-50CE-7EAF-B334E40ACFF9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E80859D1-B3AA-E91F-803C-3D9E81BA8942</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idprograma" id="8FB4A728-1AD8-BD9C-8607-BDDD35860165">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>AF19323D-6CA9-2383-2A62-284B8C75D00E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1934EAF2-89BE-02EE-0BEF-2BDD9AB6C612</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E93BF03-6D22-A1F4-B525-13C527EE8712" referredColumn="A1B73521-02D9-A514-45B8-83C35A558C94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3ADB7CBC-9940-4715-2AD7-C5D021A5BEFA" name="evaluacion_pk">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>C43450F7-100C-9CE1-95AE-ED325D2D82FD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6AD4BA9-7C10-1BF6-1F0B-38F77E371388"/>
+<colUsage columnID="8FB4A728-1AD8-BD9C-8607-BDDD35860165"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B8F7955-FDDD-6E4F-336F-BD4707AD78D2" name="evaluacion_programa_fk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB4A728-1AD8-BD9C-8607-BDDD35860165"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

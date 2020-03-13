@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E90F50B-8697-5510-EB05-6B1313ABF61A" name="programa">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>30BA4BF9-D6FF-34B1-EDE3-324A7F1A7FAE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idprograma" id="A1B73521-02D9-A514-45B8-83C35A558C94">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>41D4EBA8-51C7-3B99-46A4-264614F8A011</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1934EAF2-89BE-02EE-0BEF-2BDD9AB6C612</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="134ED44A-823A-EF9A-E77B-78889D1A2580">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>C10E12E6-08C8-428B-01EF-5BC12A3BFDE5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>182BA2BE-9145-8009-9F02-635734680760</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE33642F-8A85-FC16-A7DA-47121D136837" name="programa_pk">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>810D90A1-35AF-F310-BC49-F72BED28904C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1B73521-02D9-A514-45B8-83C35A558C94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

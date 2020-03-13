@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29D6C10D-B5C9-C635-D7C8-DA8E34DCC772" name="alternativa">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>7BC44C90-BA07-BC85-DF4E-89A6BC7F2CD0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idalternativa" id="2061B860-C443-8795-AF6E-125DA315732B">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>69D4E459-0554-DF33-4D01-3C376B1391E1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1934EAF2-89BE-02EE-0BEF-2BDD9AB6C612</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="BF9C1CCE-12E9-BD08-3340-F06FCEB85FD4">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>80C2847A-8519-E662-2B1C-E29271488763</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4091332B-DD1C-2AE8-BA4D-028008F0A1D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correcta" id="3194746E-C195-CC15-BE35-DD6F98C68E71">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[1=correcta
+0=incorrecta]]></commentInRDBMS>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>BFC17F31-C672-9007-894B-8717193DFF24</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>B3944EF9-6CE1-1048-9BBD-42B4275D3E44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentajepuntos" id="E7B975B3-CAF7-4CFB-B9AE-FB395C2C9619">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>51BB8D27-51BA-C0D4-1907-D6D64802E37C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>39E5F617-A370-61A2-F28D-445A0A6F6E7F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idpregunta" id="D6DF38DC-4CD9-7BF1-2EBB-1F00359C070C">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>5897C933-750C-1B7A-18CC-FD67D7F439C1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1934EAF2-89BE-02EE-0BEF-2BDD9AB6C612</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8970709C-FCAF-7EEE-A5A4-97AEA20ADC68" referredColumn="92B1D4A5-CF7E-2746-2373-7E38E0104467"/>
+</associations>
+</Column>
+<Column name="idevaluacion" id="583F441C-926D-FD8B-C29B-847DDC7EC838">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>35EAE907-8EEE-E5A6-D58A-C70F1F150636</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1934EAF2-89BE-02EE-0BEF-2BDD9AB6C612</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8970709C-FCAF-7EEE-A5A4-97AEA20ADC68" referredColumn="E3EF45F9-6D38-40DB-ED87-25D7A5E4DC70"/>
+</associations>
+</Column>
+<Column name="idprograma" id="B21FB98A-FE81-575F-1FCC-E99E99171A56">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>C8A29036-2F54-F91C-BAA0-CA7C212DE6F7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1934EAF2-89BE-02EE-0BEF-2BDD9AB6C612</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8970709C-FCAF-7EEE-A5A4-97AEA20ADC68" referredColumn="665E3069-AA7D-52EF-AD54-3A07598D6B29"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECF5D9F5-F454-B117-21C6-1E807FBF0DC4" name="alternativa_pk">
+<sourceDDLFile>Evaluacion3TK01.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<importedID>98FE313B-06FC-D33F-8546-597C16227B98</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2061B860-C443-8795-AF6E-125DA315732B"/>
+<colUsage columnID="D6DF38DC-4CD9-7BF1-2EBB-1F00359C070C"/>
+<colUsage columnID="583F441C-926D-FD8B-C29B-847DDC7EC838"/>
+<colUsage columnID="B21FB98A-FE81-575F-1FCC-E99E99171A56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0A8AF1B-3DE8-ED9D-CBBE-7AF902EA613E" name="alternativa_pregunta_fk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6DF38DC-4CD9-7BF1-2EBB-1F00359C070C"/>
+<colUsage columnID="583F441C-926D-FD8B-C29B-847DDC7EC838"/>
+<colUsage columnID="B21FB98A-FE81-575F-1FCC-E99E99171A56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

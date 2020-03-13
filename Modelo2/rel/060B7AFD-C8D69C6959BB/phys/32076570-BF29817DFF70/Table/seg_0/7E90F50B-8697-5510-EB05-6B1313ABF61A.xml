@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="programa" directorySegmentName="seg_0" id="7E90F50B-8697-5510-EB05-6B1313ABF61A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nombre" id="134ED44A-823A-EF9A-E77B-78889D1A2580">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idprograma" id="A1B73521-02D9-A514-45B8-83C35A558C94">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="programa_pk" id="CE33642F-8A85-FC16-A7DA-47121D136837">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

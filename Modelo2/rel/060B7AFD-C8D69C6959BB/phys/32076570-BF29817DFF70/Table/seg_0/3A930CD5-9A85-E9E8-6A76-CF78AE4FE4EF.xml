@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="pregunta" directorySegmentName="seg_0" id="3A930CD5-9A85-E9E8-6A76-CF78AE4FE4EF">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="enunciado" id="4600E683-80F7-9C38-53F3-253FE910F7E8">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idprograma" id="665E3069-AA7D-52EF-AD54-3A07598D6B29">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="puntajetotal" id="7585A181-30CF-B649-D5EB-DC08B01DC0ED">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idpregunta" id="92B1D4A5-CF7E-2746-2373-7E38E0104467">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idevaluacion" id="E3EF45F9-6D38-40DB-ED87-25D7A5E4DC70">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="pregunta_evaluacion_fk" id="5F20DBF9-050A-AED9-815D-5293F3044263">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pregunta_pk" id="EA3D8402-60BB-6B49-6878-149A30D6E316">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:14:40 UTC</createdTime>
+<ownerDesignName>Modelo2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
