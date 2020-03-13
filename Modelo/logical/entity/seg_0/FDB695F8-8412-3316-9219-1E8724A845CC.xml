@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FDB695F8-8412-3316-9219-1E8724A845CC" name="programa">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:29:58 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="CF648253-7A14-3C10-D852-39D0BD84C92E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPrograma" id="45B9545D-D61B-0432-2A94-5F567B539BB8">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:52:35 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="CF648253-7A14-3C10-D852-39D0BD84C92E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="70F82229-8936-B32E-0BA1-068197EBE7A2">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:53:00 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="CF648253-7A14-3C10-D852-39D0BD84C92E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C574D4F2-E947-B3E8-49C6-26471D75C147" name="programa PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:52:58 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CF648253-7A14-3C10-D852-39D0BD84C92E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45B9545D-D61B-0432-2A94-5F567B539BB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

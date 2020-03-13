@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05FF6C13-0097-87AE-2F28-F4252D00AB8D" name="estudiante">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:01:22 UTC</createdTime>
+<generatorID>DB3589B6-0E84-40FB-38E9-A0CBCABC67E3</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEstudiante" id="0D1F6401-E7D3-1B74-061F-56EBF317E2D4">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:01:22 UTC</createdTime>
+<generatorID>31E10F16-8247-EF03-33F3-13445A4E0F5C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="FCFFBE9D-3E3C-814F-C495-57648DD016EC">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:01:22 UTC</createdTime>
+<generatorID>7CA02A33-C290-7410-D07D-662971D7AFF5</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idCurso" id="C48DE3A5-C081-1608-7A58-AE838B92287A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:01:22 UTC</createdTime>
+<generatorID>17E44834-A943-D64C-1FD4-A3774803359D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6998B6AB-D92C-A3ED-AE2A-BD4FB4002100" referredColumn="4608D8F4-19BA-229E-C7C2-22592811CA4F"/>
+</associations>
+</Column>
+<Column name="idPrograma" id="C7C8A68B-96D6-BEA2-1F3B-D63B0910C8A5">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:01:22 UTC</createdTime>
+<generatorID>EEC5AD7C-6BE6-CAC7-F634-1651C94DFFCB</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6998B6AB-D92C-A3ED-AE2A-BD4FB4002100" referredColumn="08EF0C10-E7A9-86C1-A357-D2521C8619DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC170136-4EE6-4D2F-885E-9E7B898BE29E" name="estudiante_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:01:22 UTC</createdTime>
+<generatorID>0CF4CC37-0CFC-89D2-1032-8AEF07363021</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D1F6401-E7D3-1B74-061F-56EBF317E2D4"/>
+<colUsage columnID="C48DE3A5-C081-1608-7A58-AE838B92287A"/>
+<colUsage columnID="C7C8A68B-96D6-BEA2-1F3B-D63B0910C8A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C85CD64-A515-7499-C032-EE6731AC7197" name="estudiante_curso_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:01:22 UTC</createdTime>
+<generatorID>DD9899EC-1183-1504-673A-3FE786B0E2F4</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C48DE3A5-C081-1608-7A58-AE838B92287A"/>
+<colUsage columnID="C7C8A68B-96D6-BEA2-1F3B-D63B0910C8A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
