@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 19.4.0.350.1424
---   en:        2020-03-13 16:34:39 CLST
+--   en:        2020-03-13 17:49:16 CLST
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -32,7 +32,7 @@ CREATE TABLE aplicaciontest (
     idprograma    INTEGER NOT NULL,
     evaluacion    INTEGER,
     pregunta      INTEGER,
-    respuesta     INTEGER
+    respuesta     VARCHAR2(300 CHAR)
 );
 
 COMMENT ON COLUMN aplicaciontest.evaluacion IS
@@ -67,7 +67,8 @@ CREATE TABLE evaluacion (
     unidad         INTEGER,
     autor          VARCHAR2(50 CHAR),
     fechacreacion  DATE,
-    idprograma     INTEGER NOT NULL
+    idprograma     INTEGER NOT NULL,
+    programa       INTEGER
 );
 
 ALTER TABLE evaluacion ADD CONSTRAINT evaluacion_pk PRIMARY KEY ( idevaluacion,

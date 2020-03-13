@@ -97,6 +97,18 @@
 <colAssociation fkAssociation="82108CA7-64BD-B1DC-E181-6514B3FD3E20" referredColumn="75354C55-8499-DF80-9DED-E6BBF8CFA96E"/>
 </associations>
 </Column>
+<Column name="programa" id="6B518808-224F-2521-41F1-ACB50A7D3A67">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:49:07 UTC</createdTime>
+<generatorID>368A0A1B-EB2A-D7B2-5257-43870A5D8F12</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4B2E8A5D-5CDB-92B4-DB33-56FC81676D7B" name="evaluacion_PK">
